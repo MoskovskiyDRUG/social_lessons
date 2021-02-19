@@ -9,3 +9,7 @@
 .item.active{
     color: red;
 }
+
+.hover{
+  color:blue;
+}
