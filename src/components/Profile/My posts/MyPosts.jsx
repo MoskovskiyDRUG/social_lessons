@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Post/Post.module.css';
 import Post from './Post/Post';
+import Like from "./Post/Like";
 const MyPosts = () => {
     return (
         <div>
@@ -10,8 +11,14 @@ const MyPosts = () => {
                 <button>Add post</button>
             </div>
                 <div className={classes.posts}>
-                    <Post/>
+                    <Post message ="Hi, how are you?"/>
+                    <Like count='5'/>
+                    <Post message = "Its my new post!"/>
+                    <Like count='10'/>
+
+
                 </div>
+
                 </div>
 
 

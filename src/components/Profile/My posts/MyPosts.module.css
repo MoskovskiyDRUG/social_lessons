@@ -1,0 +1,11 @@
+
+.content {
+    grid-area: c;
+    background-color: #fff6f0;
+}
+.kana{
+    width: 600px;
+}
+.item{
+    color: green;
+}
