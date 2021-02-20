@@ -4,7 +4,7 @@ const Like = (props) => {
 
     return (
                 <div className={classes.item}>
-                    <div><span>Мне нравится: { props.count }</span></div>
+                    <div><span>Мне нравится: { props.LikeCount }</span></div>
                 </div>
 
 
